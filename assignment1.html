@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <script>
+        function hello()
+        {
+            var printname= document.getElementById("name").value;
+            document.getElementById("a").innerHTML = printname;
+            alert("Hello " + printname);
+        }
+    </script>
+    <body style="background-color:#e1d1c6;">
+        <p style="color:#453124">Please fill your name</p>
+
+        name: <input type="text" id="name"><br>
+        <p style="color:#453124"></p>Please click continue</p>
+        <input type = "button" onclick = "hello()" value = "continue"></body>
+
+    <p id="a"></p>
+</html>
